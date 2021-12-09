@@ -6,15 +6,6 @@ class Book {
     }
 }
 
-let result = 0;
-function solve(totalChosenBooks, listBook) {
-    listBook.map((v) => {
-        if (v.alice == 1 && v.bob == 1) {
-            result = result + v.time;
-        }
-    });
-}
-
 const totalChosenBooks = 4;
 const listBook = [
     new Book(7, 1, 1),
